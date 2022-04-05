@@ -5,3 +5,6 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse("this is my django project practices demo")
+
+def form(request):
+    return HttpResponse("this is my django project practices demo")
