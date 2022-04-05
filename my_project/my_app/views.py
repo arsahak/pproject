@@ -8,3 +8,7 @@ def index(request):
 
 def form(request):
     return HttpResponse("this is my django project practices demo")
+
+
+def login(request):
+    return HttpResponse("this is my django project practices demo")
